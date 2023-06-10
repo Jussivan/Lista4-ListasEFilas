@@ -1,0 +1,15 @@
+from Fila import Fila
+
+fila = Fila(5)
+fila.inserir(1)
+fila.inserir(2)
+fila.inserir(3)
+print("Fila vazia?", fila.esta_vazia())
+print("Fila cheia?", fila.esta_cheia())
+print("Item removido:", fila.remover())
+fila.inserir(4)
+fila.inserir(5)
+fila.inserir(6)
+print("Item removido:", fila.remover())
+print("Fila vazia?", fila.esta_vazia())
+print("Fila cheia?", fila.esta_cheia()) 
